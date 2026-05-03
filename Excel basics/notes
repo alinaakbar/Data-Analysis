@@ -1,0 +1,19 @@
+comparasion operator:
+is C3 and D3 equal? 
+=C3=D3
+
+is C3 greater than D3?
+=CS>D3
+return a true or false statement
+
+FUNCTIONS:
+avg()
+and() //takes logical parameters e.g. true or false values
+count() 
+countif()
+countif(c3:c9,"<=5"), countif(c3:c9,"<="& I9)
+- here, if the value of I9 changes, value of our cell changes too
+- F4 locks in referenced cells such that if value of said cells changes, our formula updates its attributes' values
+
+IF statements 
+IF(test_value //true or false or a conditional statment (c3=d3, return_value_for_true, return_value_for_false
