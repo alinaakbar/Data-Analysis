@@ -13,7 +13,17 @@ count()
 countif()
 countif(c3:c9,"<=5"), countif(c3:c9,"<="& I9)
 - here, if the value of I9 changes, value of our cell changes too
-- F4 locks in referenced cells such that if value of said cells changes, our formula updates its attributes' values
+- F4 (Fn+f4 for me) locks in referenced cells such that if value of said cells changes, our formula updates its attributes' values
 
 IF statements 
 IF(test_value //true or false or a conditional statment (c3=d3, return_value_for_true, return_value_for_false
+
+IFS()
+IFS(first condition, iftrue_return, second condition, if_true_return, TRUE/FALSE, default value)
+
+2nd last attribute:
+To specify a default result, enter TRUE for your final logical_test argument. 
+If none of the other conditions are met, the corresponding value will be returned.
+
+
+
